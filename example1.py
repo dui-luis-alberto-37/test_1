@@ -5,8 +5,14 @@
 
 import numpy as np
 
+data_list = list(np.arange(1,12,1))
 
-x =np.cos(np.pi)
+# x =np.cos(np.pi)
 
+for i in data_list:
+    print(f'value: {i}')
 
-print(x)
+# same in C:
+# for (x=1; x<=10;x++){
+#  printf("%\n",x);
+#}
